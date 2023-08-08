@@ -1,0 +1,63 @@
+{
+	"source": {
+		"answers": [
+			{
+				"_id": "bd16c52e-3e59-d76c-9c97-532a9abf6819",
+				"answer": "Nothing, `max_tokens` does not impact the number of tokens in the prompt.",
+				"correct": true
+			},
+			{
+				"_id": "540b9469-721e-8b1f-e427-052d23c4a073",
+				"answer": "Python will truncate the prompt to the first 6 tokens.",
+				"correct": false
+			},
+			{
+				"_id": "35233db4-061c-a968-2ad4-927ff3db14b2",
+				"answer": "Python will override `max_tokens` and set its value to 9.",
+				"correct": false
+			},
+			{
+				"_id": "2b336348-9106-4f5a-16b4-16735c5c6e5e",
+				"answer": "You will see an error because the number of tokens in the prompt exceeds `max_tokens`.",
+				"correct": false
+			}
+		],
+		"arePartialPointsAllowed": false,
+		"bloomsObjectiveLevel": "",
+		"guidance": "Nothing happens. `max_tokens` does not affect the prompt tokens. `max_tokens` determines the length of the response.",
+		"incorrectPoints": 0,
+		"instructions": "**What happens if `max_tokens` is set to 6 while the number of tokens in the prompt is 9?**",
+		"isRandomized": true,
+		"learningObjectives": "",
+		"maxAttemptsCount": 0,
+		"metadata": {
+			"files": [
+				"tokens.py"
+			],
+			"opened": [
+				{
+					"content": "tokens.py",
+					"panelNumber": 0,
+					"type": "file"
+				}
+			],
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			]
+		},
+		"multipleResponse": false,
+		"name": "Max_Tokens OpenAI",
+		"points": 20,
+		"showExpectedAnswer": true,
+		"showGuidanceAfterResponseOption": {
+			"passedFrom": 2,
+			"type": "Attempts"
+		},
+		"showName": false
+	},
+	"taskId": "multiple-choice-1981471950",
+	"type": "multiple-choice"
+}

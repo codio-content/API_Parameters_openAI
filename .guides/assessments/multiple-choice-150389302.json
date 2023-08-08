@@ -1,0 +1,64 @@
+{
+	"source": {
+		"answers": [
+			{
+				"_id": "8b502d8d-3296-359c-a5d8-52a10b60b9e1",
+				"answer": "True",
+				"correct": true
+			},
+			{
+				"_id": "5de416dd-f119-badb-add2-aa53d5382bb5",
+				"answer": "False",
+				"correct": false
+			}
+		],
+		"arePartialPointsAllowed": false,
+		"bloomsObjectiveLevel": "",
+		"guidance": "When given a temp of 0, GPT-3 will always produce the same output for a given promp. it less creative. But when given temp of 1 it will get more \"creative\" answers each time. ",
+		"incorrectPoints": 0,
+		"instructions": "### True or False \n\nA temperature value of 1 will deliver very inconsistent and sometimes interesting results",
+		"isRandomized": false,
+		"learningObjectives": "",
+		"maxAttemptsCount": 1,
+		"metadata": {
+			"files": [
+				"secret.py",
+				"temp.py"
+			],
+			"opened": [
+				{
+					"content": "secret.py",
+					"panelNumber": 0,
+					"type": "file"
+				},
+				{
+					"content": "temp.py",
+					"panelNumber": 0,
+					"type": "file"
+				},
+				{
+					"content": "",
+					"panelNumber": 1,
+					"type": "terminal"
+				}
+			],
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			]
+		},
+		"multipleResponse": false,
+		"name": "Reading Question ",
+		"points": 20,
+		"showExpectedAnswer": true,
+		"showGuidanceAfterResponseOption": {
+			"passedFrom": 1,
+			"type": "Attempts"
+		},
+		"showName": true
+	},
+	"taskId": "multiple-choice-150389302",
+	"type": "multiple-choice"
+}

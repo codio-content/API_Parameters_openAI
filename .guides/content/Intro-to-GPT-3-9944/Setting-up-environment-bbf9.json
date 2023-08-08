@@ -1,0 +1,30 @@
+{
+	"chapter": false,
+	"closeTerminalSession": true,
+	"contentType": "markdown",
+	"files": [
+		{
+			"action": "open",
+			"panel": 0,
+			"path": "temp.py"
+		},
+		{
+			"action": "open",
+			"panel": 0,
+			"path": "secret.py"
+		},
+		{
+			"action": "open",
+			"panel": 1,
+			"path": "#terminal: "
+		}
+	],
+	"id": "bbf963e0-a299-f259-7c46-fcd543a23892",
+	"layout": "3-cell",
+	"learningObjectives": "",
+	"path": [],
+	"reset": [],
+	"teacherOnly": true,
+	"title": "Setting up environment",
+	"type": "page"
+}

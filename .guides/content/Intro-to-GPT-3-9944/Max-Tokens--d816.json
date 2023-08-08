@@ -1,0 +1,20 @@
+{
+	"chapter": false,
+	"closeTerminalSession": true,
+	"contentType": "markdown",
+	"files": [
+		{
+			"action": "open",
+			"panel": 0,
+			"path": "tokens.py"
+		}
+	],
+	"id": "d8164f63-3bc5-e243-8ef1-c207011c4927",
+	"layout": "2-panels",
+	"learningObjectives": "",
+	"path": [],
+	"reset": [],
+	"teacherOnly": false,
+	"title": "Max Tokens ",
+	"type": "page"
+}

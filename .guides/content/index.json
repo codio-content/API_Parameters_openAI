@@ -1,0 +1,18 @@
+{
+	"allowGuideClose": false,
+	"collapsedOnStart": false,
+	"hideBackToDashboard": false,
+	"hideMenu": false,
+	"hideSectionsToggle": false,
+	"lexikonTopic": "",
+	"order": [
+		"Intro-to-GPT-3-9944"
+	],
+	"protectLayout": false,
+	"scripts": [],
+	"suppressPageNumbering": true,
+	"theme": "light",
+	"title": "OpenAI GPT-3",
+	"useMarkAsComplete": true,
+	"useSubmitButtons": true
+}

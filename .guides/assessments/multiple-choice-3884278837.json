@@ -1,0 +1,53 @@
+{
+	"source": {
+		"answers": [
+			{
+				"_id": "c6c73857-8d09-42cb-98ef-c17acc1f3b28",
+				"answer": "True ",
+				"correct": false
+			},
+			{
+				"_id": "b4a285ea-ab43-d419-e4b3-4c2f480927a9",
+				"answer": "False",
+				"correct": true
+			}
+		],
+		"arePartialPointsAllowed": false,
+		"bloomsObjectiveLevel": "",
+		"guidance": "the maximum number of tokens to generate in the completion, is the only factor that the max_token argument affects",
+		"incorrectPoints": 0,
+		"instructions": "### True or False\n\nmax_tokens argument also set a boundary for the number of token assign to the prompt ",
+		"isRandomized": false,
+		"learningObjectives": "",
+		"maxAttemptsCount": 1,
+		"metadata": {
+			"files": [
+				"temp.py"
+			],
+			"opened": [
+				{
+					"content": "temp.py",
+					"panelNumber": 0,
+					"type": "file"
+				}
+			],
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			]
+		},
+		"multipleResponse": false,
+		"name": "Token ",
+		"points": 20,
+		"showExpectedAnswer": true,
+		"showGuidanceAfterResponseOption": {
+			"passedFrom": 1,
+			"type": "Attempts"
+		},
+		"showName": true
+	},
+	"taskId": "multiple-choice-3884278837",
+	"type": "multiple-choice"
+}

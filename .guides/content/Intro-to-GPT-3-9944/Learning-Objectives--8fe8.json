@@ -1,0 +1,19 @@
+{
+	"chapter": false,
+	"closeTerminalSession": true,
+	"contentType": "markdown",
+	"files": [
+		{
+			"action": "close",
+			"path": "#tabs"
+		}
+	],
+	"id": "8fe83fc1-5a6c-031d-8929-7ccf82f11140",
+	"layout": "1-panel",
+	"learningObjectives": "",
+	"path": [],
+	"reset": [],
+	"teacherOnly": false,
+	"title": "Learning Objectives ",
+	"type": "page"
+}

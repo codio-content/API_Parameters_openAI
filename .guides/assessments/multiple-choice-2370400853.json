@@ -1,0 +1,75 @@
+{
+	"source": {
+		"answers": [
+			{
+				"_id": "5fddd4b6-08ff-d20c-4d15-63647999f18f",
+				"answer": "Do not make any changes to the code.",
+				"correct": true
+			},
+			{
+				"_id": "41c7cfed-6b4d-c138-bb92-59f65ad966ef",
+				"answer": "Change `frequency_penalty` to `0`.",
+				"correct": false
+			},
+			{
+				"_id": "a68db5d5-96d0-9b34-60bf-4a09d2830a7d",
+				"answer": "Change `presence_penalty` and `frequency_penalty` to both be less than `0`.",
+				"correct": false
+			},
+			{
+				"_id": "936da92d-a1b4-b241-a121-f5d5b498a407",
+				"answer": "Change `presence_penalty` to `-2`.",
+				"correct": false
+			}
+		],
+		"arePartialPointsAllowed": false,
+		"bloomsObjectiveLevel": "4",
+		"guidance": "You do not need to make any changes to the code sample. `frequency_penalty` affects the repetition. The larger the value, the less likely you are to see repetition. `presence_penalty` affects the likelihood to introduce new topics. The larger the value the more likely you are to see new topics. Both `frequency_penalty` and `presence_penalty` are at their maximum values.",
+		"incorrectPoints": 0,
+		"instructions": "**Assume the following code:**\n\n```python-hide-clipboard\nresponse = openai.Completion.create(model=\"text-davinci-002\", \n                                    prompt=prompts,\n                                    n=5,\n                                    frequency_penalty=2,\n                                    presence_penalty=2)\n```\n\n**We want the completions to have the least amount of repetition and greatest number of new topics. How can this code be improved to meet these goals?**",
+		"isRandomized": true,
+		"learningObjectives": "SWBAT to select parameters to that reduce repetition and increase new topics",
+		"maxAttemptsCount": 0,
+		"metadata": {
+			"files": [
+				"penalty.py"
+			],
+			"opened": [
+				{
+					"content": "penalty.py",
+					"panelNumber": 0,
+					"type": "file"
+				}
+			],
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				},
+				{
+					"name": "Content",
+					"value": "Frequency and Presence Penalty"
+				},
+				{
+					"name": "Programming Language",
+					"value": "Python"
+				},
+				{
+					"name": "Category",
+					"value": "API Parameters"
+				}
+			]
+		},
+		"multipleResponse": false,
+		"name": "frequency and presence",
+		"points": 20,
+		"showExpectedAnswer": true,
+		"showGuidanceAfterResponseOption": {
+			"passedFrom": 2,
+			"type": "Attempts"
+		},
+		"showName": false
+	},
+	"taskId": "multiple-choice-2370400853",
+	"type": "multiple-choice"
+}

@@ -1,0 +1,24 @@
+{
+	"chapter": false,
+	"closeTerminalSession": true,
+	"contentType": "markdown",
+	"files": [
+		{
+			"action": "close",
+			"path": "#tabs"
+		},
+		{
+			"action": "open",
+			"panel": 0,
+			"path": "TopP.py"
+		}
+	],
+	"id": "ab4d2c24-80f4-f7ea-f1c9-3524b1cdfb04",
+	"layout": "2-panels",
+	"learningObjectives": "",
+	"path": [],
+	"reset": [],
+	"teacherOnly": false,
+	"title": "Top P",
+	"type": "page"
+}

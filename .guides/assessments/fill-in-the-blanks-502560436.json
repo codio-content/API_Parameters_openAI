@@ -1,0 +1,56 @@
+{
+	"source": {
+		"arePartialPointsAllowed": false,
+		"bloomsObjectiveLevel": "",
+		"distractors": "",
+		"guidance": "",
+		"instructions": "## Fill in the blank with either `n` or `best_of` \n----",
+		"learningObjectives": "",
+		"maxAttemptsCount": 1,
+		"metadata": {
+			"files": [
+				"best-of.py"
+			],
+			"opened": [
+				{
+					"content": "best-of.py",
+					"panelNumber": 0,
+					"type": "file"
+				}
+			],
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Fill in the Blanks"
+				}
+			]
+		},
+		"name": "n vs best_of",
+		"points": 20,
+		"showExpectedAnswer": true,
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"showName": false,
+		"showValues": true,
+		"text": "\u003c\u003c\u003cn\u003e\u003e\u003e\u003e needs less than or equal to \u003c\u003c\u003cbest_of\u003e\u003e\u003e. \u003c\u003c\u003cn\u003e\u003e\u003e generates multiple response, but does not pick the \"best\" among them.",
+		"tokens": {
+			"blank": [
+				"n",
+				"best_of",
+				"n"
+			],
+			"regexPositions": [],
+			"text": [
+				0,
+				"\u003e needs less than or equal to ",
+				0,
+				". ",
+				0,
+				" generates multiple response, but does not pick the \"best\" among them."
+			]
+		}
+	},
+	"taskId": "fill-in-the-blanks-502560436",
+	"type": "fill-in-the-blanks"
+}

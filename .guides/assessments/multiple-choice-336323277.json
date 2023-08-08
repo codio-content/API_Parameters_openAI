@@ -1,0 +1,74 @@
+{
+	"source": {
+		"name": "top_p vs temperature",
+		"showName": false,
+		"instructions": "**With your understanding of both `temperature` and `top_p`. What would happen if we set `temperature = 1` and `top_p = 0.1`? Feel free to try it in your editors with an `n=5`**",
+		"multipleResponse": false,
+		"isRandomized": true,
+		"answers": [
+			{
+				"_id": "f301f21a-8f77-2692-7e87-1d055e238928",
+				"correct": false,
+				"answer": "Higher temperatures will generate a more diverse response. We will get multiple different answers"
+			},
+			{
+				"_id": "a413b723-0773-593e-65c7-b94e251d659f",
+				"correct": false,
+				"answer": "Higher temperatures will generate a more diverse response. `top_p` will not be considered because you cannot use `top_p` and temperature at the same time."
+			},
+			{
+				"_id": "73b2fcc7-158a-731b-1043-814f93f28962",
+				"correct": false,
+				"answer": "We will get more or less the same answers because at higher temperatures, will generate more stable responses. "
+			},
+			{
+				"_id": "816fc13e-c4c0-f054-81f2-2c476fdced30",
+				"correct": true,
+				"answer": "Higher temperatures will generate a more diverse response. However `top_p` will narrow the scope of possible answers to the top 10%. Randomly choosing between the top 10% will give us more or less the same completion"
+			}
+		],
+		"guidance": "The function for adding randomness (temperature) was set to max. However, the pool of choices was narrowed by `top_p` which makes it harder to generate appropriate random answers.",
+		"showGuidanceAfterResponseOption": {
+			"type": "Attempts",
+			"passedFrom": 2
+		},
+		"maxAttemptsCount": 0,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				},
+				{
+					"name": "Content",
+					"value": "top_p"
+				},
+				{
+					"name": "Programming Language",
+					"value": "Python"
+				},
+				{
+					"name": "Category",
+					"value": "API Parameters"
+				}
+			],
+			"files": [
+				"TopP.py"
+			],
+			"opened": [
+				{
+					"type": "file",
+					"content": "TopP.py"
+				}
+			]
+		},
+		"bloomsObjectiveLevel": "3",
+		"learningObjectives": "SWBAT explain the interplay of temperature and top_p on results produced by the model"
+	},
+	"taskId": "multiple-choice-336323277",
+	"type": "multiple-choice"
+}

@@ -1,0 +1,32 @@
+{
+	"source": {
+		"bloomsObjectiveLevel": "",
+		"grader": "1",
+		"guidance": "",
+		"initial": "response = openai.Completion.create(\n  model=\u0026quot;text-davinci-002\u0026quot;,\n  prompt=\u0026quot;Write a tagline for an ice cream shop\u0026quot;\n  temperature=1,\n  max_tokens=25,\n  best_of=6 )\nfrequency_penalty=0,#distractor\npresence_penalty=0,#distractor\ntop_p=1,#distractor\nCompletion_token=25,#distractor\nn=6 )#distractor",
+		"instructions": "Drag and drop **ONLY** the necessary code in the box below.",
+		"learningObjectives": "",
+		"maxAttemptsCount": 0,
+		"metadata": {
+			"files": [
+				"penalty.py"
+			],
+			"opened": [],
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Parsons Puzzle"
+				}
+			]
+		},
+		"name": "Completion token",
+		"options": "{\"sortableId\":\"sortable\",\"max_wrong_lines\":10,\"exec_limit\":2500,\"can_indent\":true,\"x_indent\":50,\"lang\":\"en\",\"show_feedback\":true,\"trashId\":\"sortableTrash\"}",
+		"points": 20,
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"showName": false
+	},
+	"taskId": "parsons-puzzle-370224519",
+	"type": "parsons-puzzle"
+}

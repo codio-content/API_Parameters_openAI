@@ -1,0 +1,19 @@
+{
+	"chapter": false,
+	"closeTerminalSession": true,
+	"contentType": "markdown",
+	"files": [
+		{
+			"action": "close",
+			"path": "#tabs"
+		}
+	],
+	"id": "f36c8141-fbfb-8433-c969-09e7d806521a",
+	"layout": "1-panel",
+	"learningObjectives": "",
+	"path": [],
+	"reset": [],
+	"teacherOnly": false,
+	"title": "Tokenizer Playground",
+	"type": "page"
+}

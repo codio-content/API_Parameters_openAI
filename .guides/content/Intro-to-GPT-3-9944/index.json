@@ -1,0 +1,18 @@
+{
+	"id": "994439ac-0361-1378-2c9a-e2b4a7f6c144",
+	"order": [
+		"Learning-Objectives--8fe8",
+		"Setting-up-environment-bbf9",
+		"Completion-create-Method-5ba6",
+		"Temperature-fefe",
+		"N-and-Best-Of-1220",
+		"Tokens--3278",
+		"Tokenizer-Playground-f36c",
+		"Max-Tokens--d816",
+		"Top-P-ab4d",
+		"Frequency-and-Presence-Penalty-2df5",
+		"Coding-Exercise-85e6"
+	],
+	"title": "Intro to GPT-3",
+	"type": "chapter"
+}

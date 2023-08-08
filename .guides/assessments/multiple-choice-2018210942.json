@@ -1,0 +1,74 @@
+{
+	"source": {
+		"name": "Token to Word ",
+		"showName": true,
+		"instructions": "Assuming OpenAI has a token limit of 2048, close to how many words can one use before reaching the limit? ",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "d020ab16-a854-85f0-ec38-d219612f69f8",
+				"correct": true,
+				"answer": "over $1500$ words"
+			},
+			{
+				"_id": "4fb78869-fb04-ab07-a153-d2d05ebbc773",
+				"correct": false,
+				"answer": "exactly $500$ words"
+			},
+			{
+				"_id": "130d758a-3472-8ab9-a3e5-5574880974ae",
+				"correct": false,
+				"answer": "close to $100$ words"
+			},
+			{
+				"_id": "a1e6450f-13ce-6370-6b0b-68f4309fd2e8",
+				"correct": false,
+				"answer": "over $20000$ words"
+			}
+		],
+		"guidance": "Since one token is about $3/4$ of a word, we can multiply $2048$ by $3/4$. That means we can tokenize over $1500$ words.",
+		"showGuidanceAfterResponseOption": {
+			"type": "Attempts",
+			"passedFrom": 2
+		},
+		"maxAttemptsCount": 0,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				},
+				{
+					"name": "Content",
+					"value": "Tokens"
+				},
+				{
+					"name": "Programming Language",
+					"value": "OpenAI"
+				},
+				{
+					"name": "Category",
+					"value": "API Parameters"
+				}
+			],
+			"files": [
+				"tokens.py"
+			],
+			"opened": [
+				{
+					"type": "file",
+					"content": "tokens.py"
+				}
+			]
+		},
+		"bloomsObjectiveLevel": "2",
+		"learningObjectives": "SWBAT determine how many words can be tokenized by OpenAI's token limit"
+	},
+	"taskId": "multiple-choice-2018210942",
+	"type": "multiple-choice"
+}

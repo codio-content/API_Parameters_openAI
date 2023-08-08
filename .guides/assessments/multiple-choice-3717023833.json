@@ -1,0 +1,44 @@
+{
+	"source": {
+		"answers": [
+			{
+				"_id": "32a9d463-5c04-6949-7bae-e0cf738f9236",
+				"answer": "True",
+				"correct": true
+			},
+			{
+				"_id": "a76b695e-73d7-8b4b-5c2c-a68121247af8",
+				"answer": "False ",
+				"correct": false
+			}
+		],
+		"arePartialPointsAllowed": false,
+		"bloomsObjectiveLevel": "",
+		"guidance": "The token generated for the period is the same. The period is used pretty similarly throughout the corpus data.",
+		"incorrectPoints": 0,
+		"instructions": "### True or False \nGiven the following string \" Red is my favorite color. Leny's favorite color is purple.\" The period at the end of color and purple will have different token ID because of their position in the text. ",
+		"isRandomized": false,
+		"learningObjectives": "",
+		"maxAttemptsCount": 1,
+		"metadata": {
+			"files": [],
+			"opened": [],
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			]
+		},
+		"multipleResponse": false,
+		"name": "Period and token id ",
+		"points": 20,
+		"showExpectedAnswer": true,
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"showName": false
+	},
+	"taskId": "multiple-choice-3717023833",
+	"type": "multiple-choice"
+}

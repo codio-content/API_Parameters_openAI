@@ -1,0 +1,62 @@
+{
+	"source": {
+		"name": "OpenAI Completion Function",
+		"showName": false,
+		"instructions": "**Which of the following are mandatory arguments when using the `openai.Completion.create` method? Select all that apply.**",
+		"multipleResponse": true,
+		"isRandomized": true,
+		"answers": [
+			{
+				"_id": "a8225297-9488-7aaa-cc06-e94cd866f564",
+				"correct": false,
+				"answer": "temperature"
+			},
+			{
+				"_id": "3e27d38a-6ce2-44e7-8f9b-b7cc9c591a63",
+				"correct": false,
+				"answer": "top_p"
+			},
+			{
+				"_id": "15630a30-21e8-14e7-a49b-270fbd6f1ea2",
+				"correct": true,
+				"answer": "prompt"
+			},
+			{
+				"_id": "a0e8e828-74bd-be63-0c33-a1268455ec11",
+				"correct": true,
+				"answer": "model"
+			}
+		],
+		"guidance": "`openai.Completion.create()` needs at minimum two arguments. The model to be used to generate your response and the prompt to respond to.",
+		"showGuidanceAfterResponseOption": {
+			"type": "Attempts",
+			"passedFrom": 2
+		},
+		"maxAttemptsCount": 0,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [
+				"completion.py"
+			],
+			"opened": [
+				{
+					"type": "file",
+					"content": "completion.py"
+				}
+			]
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	},
+	"taskId": "multiple-choice-1473826894",
+	"type": "multiple-choice"
+}

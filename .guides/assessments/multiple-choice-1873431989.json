@@ -1,0 +1,67 @@
+{
+	"source": {
+		"answers": [
+			{
+				"_id": "56f64368-9ed0-fef7-0665-4d37428f26c4",
+				"answer": "Capitalization",
+				"correct": true
+			},
+			{
+				"_id": "68198792-cb8e-3b8d-dd4a-acedc2cf83c2",
+				"answer": "Placement in the phrase",
+				"correct": true
+			},
+			{
+				"_id": "0b1218f1-1e4a-3c17-d3ae-cb29c2eb23f4",
+				"answer": "The length of the phrase",
+				"correct": false
+			},
+			{
+				"_id": "96117a5a-0a09-76a0-0a95-836683c17b62",
+				"answer": "There is a difference in trailing spaces",
+				"correct": false
+			}
+		],
+		"arePartialPointsAllowed": false,
+		"bloomsObjectiveLevel": "1",
+		"guidance": "Tokens can have different IDs depending upon capitalization and the placement of the token in a phrase.",
+		"incorrectPoints": 0,
+		"instructions": "**Assume the following phrases:**\n\n```markdown-hide-clipboard\nDogs are the best humans\n```\n\n**And:**\n\n```markdown-hide-clipboard\nI saw a pack of dogs roaming the street\n```\n\n**Why does the word \"dogs\" have two different token IDs? Select all that apply.**",
+		"isRandomized": true,
+		"learningObjectives": "SWBAT explain why tokens have different IDs",
+		"maxAttemptsCount": 0,
+		"metadata": {
+			"files": [],
+			"opened": [],
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				},
+				{
+					"name": "Content",
+					"value": "Tokens"
+				},
+				{
+					"name": "Programming Language",
+					"value": "OpenAI"
+				},
+				{
+					"name": "Category",
+					"value": "API Parameters"
+				}
+			]
+		},
+		"multipleResponse": true,
+		"name": "tokenizer playground",
+		"points": 20,
+		"showExpectedAnswer": true,
+		"showGuidanceAfterResponseOption": {
+			"passedFrom": 2,
+			"type": "Attempts"
+		},
+		"showName": false
+	},
+	"taskId": "multiple-choice-1873431989",
+	"type": "multiple-choice"
+}

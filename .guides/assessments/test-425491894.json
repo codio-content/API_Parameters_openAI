@@ -1,0 +1,38 @@
+{
+	"source": {
+		"name": "OpenAI code",
+		"showName": true,
+		"instructions": "Submit your code for evaluation.",
+		"command": "python3 .guides/secure/GradedEX.py",
+		"timeoutSeconds": 40,
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Attempts",
+			"passedFrom": 2
+		},
+		"maxAttemptsCount": 0,
+		"points": 20,
+		"arePartialPointsAllowed": true,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Advanced Code Test"
+				}
+			],
+			"files": [
+				"ktest1.py"
+			],
+			"opened": [
+				{
+					"type": "file",
+					"content": "ktest1.py"
+				}
+			]
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	},
+	"taskId": "test-425491894",
+	"type": "test"
+}

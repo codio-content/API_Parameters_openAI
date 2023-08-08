@@ -1,0 +1,44 @@
+{
+	"source": {
+		"answers": [
+			{
+				"_id": "189897f7-50cf-3e3e-3626-fc8ce16075ca",
+				"answer": "True ",
+				"correct": true
+			},
+			{
+				"_id": "e2fe76fd-2593-11e7-fff7-7091d49a83df",
+				"answer": "False",
+				"correct": false
+			}
+		],
+		"arePartialPointsAllowed": false,
+		"bloomsObjectiveLevel": "",
+		"guidance": "in order to maintain latency, Open ai does put a 2048 token limit . ",
+		"incorrectPoints": 0,
+		"instructions": "### True or False \nOpenAi imposes a 2048 token limit ?",
+		"isRandomized": false,
+		"learningObjectives": "",
+		"maxAttemptsCount": 1,
+		"metadata": {
+			"files": [],
+			"opened": [],
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			]
+		},
+		"multipleResponse": false,
+		"name": "Readigng Question ",
+		"points": 20,
+		"showExpectedAnswer": true,
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"showName": false
+	},
+	"taskId": "multiple-choice-1433073593",
+	"type": "multiple-choice"
+}

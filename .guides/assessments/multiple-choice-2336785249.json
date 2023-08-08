@@ -1,0 +1,63 @@
+{
+	"source": {
+		"answers": [
+			{
+				"_id": "78c8854d-7781-bfcd-e7d0-0968c001064f",
+				"answer": "300",
+				"correct": true
+			},
+			{
+				"_id": "1e67dca5-70d1-25eb-f9fc-2f5a10c66927",
+				"answer": "22",
+				"correct": false
+			},
+			{
+				"_id": "c94850b0-c6a1-5eab-e6e0-634c5814845c",
+				"answer": "1",
+				"correct": false
+			},
+			{
+				"_id": "95afe35e-0f16-dc5b-d49a-ff684d81a92f",
+				"answer": "100",
+				"correct": false
+			}
+		],
+		"arePartialPointsAllowed": false,
+		"bloomsObjectiveLevel": "",
+		"guidance": "100 tokens ~= 75 words. 75*3 is about 225 words, which would represent 300 tokens.",
+		"incorrectPoints": 0,
+		"instructions": "### Reading Question \n\nAbout how many tokens are present in 225 words?\n",
+		"isRandomized": false,
+		"learningObjectives": "",
+		"maxAttemptsCount": 1,
+		"metadata": {
+			"files": [
+				"temp.py"
+			],
+			"opened": [
+				{
+					"content": "temp.py",
+					"panelNumber": 0,
+					"type": "file"
+				}
+			],
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			]
+		},
+		"multipleResponse": false,
+		"name": "Token Count",
+		"points": 20,
+		"showExpectedAnswer": true,
+		"showGuidanceAfterResponseOption": {
+			"passedFrom": 1,
+			"type": "Attempts"
+		},
+		"showName": true
+	},
+	"taskId": "multiple-choice-2336785249",
+	"type": "multiple-choice"
+}

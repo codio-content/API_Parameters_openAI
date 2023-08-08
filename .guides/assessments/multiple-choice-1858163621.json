@@ -1,0 +1,74 @@
+{
+	"source": {
+		"name": "n and best of",
+		"showName": false,
+		"instructions": "**Assume the following code:**\n\n```python-hide-clipboard\nfor i in (response[\"choices\"]):\n  print(i[\"text\"].strip()) \n```\n\n**Which definitions of the variable `response` would print three responses from the GPT-3 model? Select all that apply.**",
+		"multipleResponse": true,
+		"isRandomized": true,
+		"answers": [
+			{
+				"_id": "6a37f3f3-6c7d-c417-ef22-be410c80a934",
+				"correct": true,
+				"answer": "```python-hide-clipboard\nresponse = openai.Completion.create(model=\"text-davinci-002\", \n                                    prompt=prompts,\n                                    n=3,\n                                    best_of=3)\n```"
+			},
+			{
+				"_id": "79e8929e-1a29-b24e-42bd-c2627d24d31f",
+				"correct": false,
+				"answer": "```python-hide-clipboard\nresponse = openai.Completion.create(model=\"text-davinci-002\", \n                                    prompt=prompts,\n                                    best_of=3)\n```"
+			},
+			{
+				"_id": "7792f775-2639-d62d-f9c4-e968f9792f59",
+				"correct": true,
+				"answer": "```python-hide-clipboard\nresponse = openai.Completion.create(model=\"text-davinci-002\", \n                                    prompt=prompts,\n                                    n=3)\n```"
+			},
+			{
+				"_id": "e0dd9f87-3e94-82a5-67f7-4f1254327b01",
+				"correct": false,
+				"answer": "```python-hide-clipboard\nresponse = openai.Completion.create(model=\"text-davinci-002\", \n                                    prompt=prompts,\n                                    n=2,\n                                    best_of=3)\n```"
+			}
+		],
+		"guidance": "The correct answers are:\n\n```python-hide-clipboard\nresponse = openai.Completion.create(model=\"text-davinci-002\", \n                                    prompt=prompts,\n                                    n=3,\n                                    best_of=3)\n```\n\nand:\n\n```python-hide-clipboard\nresponse = openai.Completion.create(model=\"text-davinci-002\", \n                                    prompt=prompts,\n                                    n=3)\n```\n\nThe keyword argument `n` controls the number of responses GPT-3 returns. When `best_of = 3`, it will run three generations but only return the best one. These code samples are correct because `n = 3` in both of them.",
+		"showGuidanceAfterResponseOption": {
+			"type": "Attempts",
+			"passedFrom": 2
+		},
+		"maxAttemptsCount": 0,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				},
+				{
+					"name": "Content",
+					"value": "n and best_of"
+				},
+				{
+					"name": "Programming Language",
+					"value": "Python"
+				},
+				{
+					"name": "Category",
+					"value": "API Parameters"
+				}
+			],
+			"files": [
+				"best-of.py"
+			],
+			"opened": [
+				{
+					"type": "file",
+					"content": "best-of.py"
+				}
+			]
+		},
+		"bloomsObjectiveLevel": "3",
+		"learningObjectives": "SWBAT determine which API calls would print three responses"
+	},
+	"taskId": "multiple-choice-1858163621",
+	"type": "multiple-choice"
+}

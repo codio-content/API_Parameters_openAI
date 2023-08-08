@@ -1,0 +1,24 @@
+{
+	"chapter": false,
+	"closeTerminalSession": true,
+	"contentType": "markdown",
+	"files": [
+		{
+			"action": "close",
+			"path": "#tabs"
+		},
+		{
+			"action": "open",
+			"panel": 0,
+			"path": "best-of.py"
+		}
+	],
+	"id": "12201baf-8ff2-6a49-141e-89efd0c8e83c",
+	"layout": "2-panels",
+	"learningObjectives": "",
+	"path": [],
+	"reset": [],
+	"teacherOnly": false,
+	"title": "N and Best Of",
+	"type": "page"
+}

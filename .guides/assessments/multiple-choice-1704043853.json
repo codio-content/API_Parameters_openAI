@@ -1,0 +1,62 @@
+{
+	"source": {
+		"name": "temperature question",
+		"showName": false,
+		"instructions": "**Assume the following code:**\n\n```python-hide-clipboard\nprmt =\"Which team is going to with the championship?\"\nmdl = \"text-davinci-002\"\ntemp = 2.1\nresponse = openai.Completion.create(temperature=temp, \n                                    model=mdl, \n                                    prompt=prmt)\n\nprint(response['choices'][0]['text'].strip())\n```\n\n**What is wrong with the code above?**",
+		"multipleResponse": false,
+		"isRandomized": true,
+		"answers": [
+			{
+				"_id": "3bc99e85-6dcb-b956-5ce5-19e0de1736af",
+				"correct": true,
+				"answer": "The value for `temperature` should be between 0 and 2 inclusive."
+			},
+			{
+				"_id": "6c9e6bfb-f601-4a62-aec5-a35b7327b67d",
+				"correct": false,
+				"answer": "Trick question, nothing is wrong with the code."
+			},
+			{
+				"_id": "0ebcbda7-937e-c949-add1-2b441b87574e",
+				"correct": false,
+				"answer": "Strings used for the `prompt` cannot contain a \"?\"."
+			},
+			{
+				"_id": "bc10e66d-7e3c-54f3-e078-6d6b1f0511d4",
+				"correct": false,
+				"answer": "The argument `temperature` must come last."
+			}
+		],
+		"guidance": "The correct answer is:\n\n>The value for `temperature` should be between 0 and 2 inclusive.\n\n* The variable `temp` has the value `2.1` which is too big.\n* You can use punctuation in your prompts.\n* The order does not matter when named arguments are being used.",
+		"showGuidanceAfterResponseOption": {
+			"type": "Attempts",
+			"passedFrom": 2
+		},
+		"maxAttemptsCount": 0,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [
+				"temp.py"
+			],
+			"opened": [
+				{
+					"type": "file",
+					"content": "temp.py"
+				}
+			]
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	},
+	"taskId": "multiple-choice-1704043853",
+	"type": "multiple-choice"
+}

@@ -1,0 +1,24 @@
+{
+	"chapter": false,
+	"closeTerminalSession": true,
+	"contentType": "markdown",
+	"files": [
+		{
+			"action": "close",
+			"path": "#tabs"
+		},
+		{
+			"action": "open",
+			"panel": 0,
+			"path": "completion.py"
+		}
+	],
+	"id": "5ba699f1-f7c0-1aa2-5b3a-265b3d4f8626",
+	"layout": "2-panels",
+	"learningObjectives": "",
+	"path": [],
+	"reset": [],
+	"teacherOnly": false,
+	"title": "Completion.create Method",
+	"type": "page"
+}
